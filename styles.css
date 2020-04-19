@@ -1,5 +1,5 @@
 body{
-	background-color: #000080;
+	background-color: gray;
 	line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
@@ -23,7 +23,8 @@ p{
 aside{
 		color: #F0FFFF;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
+	
 }
 footer{
 	color: #F0FFFF;
