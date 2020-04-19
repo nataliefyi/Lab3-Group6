@@ -23,7 +23,7 @@ article, body, div, footer, header, h1, h2, p {
 	text-align: center;
 	padding: .1em;
 	margin: .25em;
-	border: .2em solid black;
+	border-bottom: .2em solid black;
 }
 
 #flexContainer {
@@ -42,13 +42,15 @@ article, body, div, footer, header, h1, h2, p {
 
 }
 
-aside{
+#hobbies{
 	position: relative;
-	top: 6em;
+	top: 1em;
 	text-align: center;
 	font-size: .9em;
 	margin: .25em;
 	padding: .5em;
 }
 
-
+footer {
+	text-align: center;
+}
