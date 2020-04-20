@@ -7,9 +7,10 @@ article, body, div, footer, header, h1, h2, p {
 	top: 0;
 }
 
+/* body and page container */
 .container{
 	color: honeydew;
-	background-color: midnightblue;
+	background-color: #002b90;
 	line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
@@ -18,39 +19,54 @@ article, body, div, footer, header, h1, h2, p {
 	font-family: sans-serif;
 }
 
-#title {
-	font-size: 1.5em;
-	text-align: center;
-	padding: .1em;
-	margin: .25em;
-	border-bottom: .2em solid black;
-}
-
 #flexContainer {
-	display: flex;
 	font-size: 1.1em;
 }
 
+/* headings */
+#title {
+	width: max;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: #002680;
+	padding: .1em;
+	margin: 0;
+	border-bottom: .2em solid black;
+}
+h3{
+	text-align: center;
+}
+hr{
+	border: black solid 0.1em;
+	width:90%;
+}
+
+/*main content*/
 #groupContainer {
+	width: 70%;
+	float: left;
 	border-right: solid black .1em;
 	padding: .5em;
-
+	margin: 0 0.5em 0;
 }
 
-.groupMember {
-	border-bottom: solid black .1em;
-
-}
-
-#hobbies{
-	position: relative;
-	top: 1em;
+/* sidebar */
+#aside{
+	width: 30%;
 	text-align: center;
 	font-size: .9em;
 	margin: .25em;
-	padding: .5em;
+	padding: 1em;
 }
 
+/* footer */
 footer {
-	text-align: center;
+   clear: all;
+   color: white;
+   text-align: center;
+   background-color: #002680;
+   border-top: solid black 0.1em;
+   padding: .1em;
+	margin: 0;
+   padding: 0.6em;
 }
